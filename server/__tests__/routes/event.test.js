@@ -39,7 +39,7 @@ describe('Event Routes', () => {
     leftSeats: 100,
     location: 'Patna',
     description: 'A tech conference',
-    organizer: 'Ram Bhagat',
+    organizer: 'Ram ',
   };
 
   test('creates a new event (admin only)', async () => {

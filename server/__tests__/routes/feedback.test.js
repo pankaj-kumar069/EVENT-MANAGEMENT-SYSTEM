@@ -32,7 +32,7 @@ beforeEach(async () => {
 
 describe('Feedback Routes', () => {
   const feedbackData = {
-    name: 'Ram Bhagat',
+    name: 'Ram ',
     rating: 5,
     comment: 'Amazing experience!',
   };
@@ -43,7 +43,7 @@ describe('Feedback Routes', () => {
     expect(res.statusCode).toBe(201);
     expect(res.body.message).toBe('Feedback submitted successfully');
 
-    const inDb = await Feedback.findOne({ name: 'Ram Bhagat' });
+    const inDb = await Feedback.findOne({ name: 'Ram ' });
     expect(inDb).not.toBeNull();
     expect(inDb.verified).toBe(false);
   });
@@ -56,7 +56,7 @@ describe('Feedback Routes', () => {
 
     expect(res.statusCode).toBe(200);
     expect(res.body.length).toBe(1);
-    expect(res.body[0].name).toBe('Ram Bhagat');
+    expect(res.body[0].name).toBe('Ram ');
   });
 
   test('fetches all feedback (admin)', async () => {

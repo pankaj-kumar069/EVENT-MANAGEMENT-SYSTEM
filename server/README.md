@@ -79,9 +79,9 @@ Explore connected resources to understand the full stack:
 
 | 📎 Resource                     | 🔗 Link                                                                 |
 |--------------------------------|-------------------------------------------------------------------------|
-| 📘 **Main Project README**     | [View README](https://github.com/ram-bhagat-thakur/Dynamic-Public-Event-Registration-System/blob/Development/README.md)   |
+| 📘 **Main Project README**     | [View README](https://github.com/pankaj-kumar069/Dynamic-Public-Event-Registration-System/blob/Development/README.md)   |
 | 🌐 **Live Deployment**         | [Visit Site](https://dynamic-public-event-registration-system.onrender.com/)                                 |
-| 📤 **Email Confirmation Logic**| [View Code](https://github.com/ram-bhagat-thakur/Dynamic-Public-Event-Registration-System/blob/Development/server/utils/sendConfirmationEmail.js) |
+| 📤 **Email Confirmation Logic**| [View Code](https://github.com/pankaj-kumar069/Dynamic-Public-Event-Registration-System/blob/Development/server/utils/sendConfirmationEmail.js) |
 
 ---
 

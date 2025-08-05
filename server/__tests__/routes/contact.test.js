@@ -32,7 +32,7 @@ beforeEach(async () => {
 
 describe('Contact Routes', () => {
   const contactData = {
-    name: 'Ram Bhagat',
+    name: 'Ram ',
     email: 'ram@example.com',
     mobile: '9876543210',
     message: 'I love your platform!',
@@ -42,7 +42,7 @@ describe('Contact Routes', () => {
     const res = await request(app).post('/api/contact').send(contactData);
 
     expect(res.statusCode).toBe(201);
-    expect(res.body.name).toBe('Ram Bhagat');
+    expect(res.body.name).toBe('Ram ');
     expect(res.body.read).toBe(false);
   });
 

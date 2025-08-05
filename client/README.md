@@ -80,12 +80,12 @@ npm run test
 
 | 👤 Name                       | 🎓 Role & Affiliation                  |
 |------------------------------|----------------------------------------|
-| **Ram Bhagat Thakur**        | B.Tech CSE @ Sandip University         |
+| **Pankaj Kumar**        | B.Tech CSE @ Sandip University         |
 
 ### 🔗 Profiles
 
-- 💼 GitHub: [@RamBhagatThakur](https://github.com/ram-bhagat-thakur/)  
-- 💼 LinkedIn: [Ram Bhagat Thakur](https://www.linkedin.com/in/ram-bhagat-thakur/)
+- 💼 GitHub: [@pankaj kumar](https://github.com/pankaj-kumar069/)  
+- 💼 LinkedIn: [pankaj kumar](https://www.linkedin.com/in/pankajkumar069/)
 
 ---
 

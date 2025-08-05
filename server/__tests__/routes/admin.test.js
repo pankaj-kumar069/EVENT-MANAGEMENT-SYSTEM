@@ -23,7 +23,7 @@ beforeEach(async () => {
 
 describe('Admin Routes', () => {
   const adminData = {
-    name: 'Ram Bhagat',
+    name: 'Ram ',
     username: 'ramdev',
     email: 'ram@example.com',
     password: 'securepass123',
@@ -59,7 +59,7 @@ describe('Admin Routes', () => {
 
     expect(res.statusCode).toBe(200);
     expect(res.body.token).toBeDefined();
-    expect(res.body.name).toBe('Ram Bhagat');
+    expect(res.body.name).toBe('Ram ');
   });
 
   test('fails login with wrong password', async () => {

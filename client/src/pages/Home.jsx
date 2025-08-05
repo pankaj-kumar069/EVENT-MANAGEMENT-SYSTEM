@@ -52,7 +52,7 @@ function Home() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-      setForm({ ...form, [name]: value });
+    setForm({ ...form, [name]: value });
   };
 
   const handleSubmit = async (e) => {
@@ -94,25 +94,26 @@ function Home() {
           <source src="/videos/videoplayback.mp4" type="video/mp4" />
         </video>
         <section className="relative z-10 px-6 py-24 text-center flex flex-col items-center justify-center h-full">
-          <h1 className="text-5xl max-md:text-3xl font-extrabold text-indigo-700 dark:text-yellow-300 mb-6 drop-shadow-lg">
-            Welcome to the Event Registration System 🎉
+          <h1 className="text-5xl max-md:text-3xl font-extrabold text-indigo-700 dark:text-yellow-300 mb-30 drop-shadow-lg">
+            🎉 Welcome to the Event Registration 🎉
           </h1>
-          <p className="text-lg max-md:text-base text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Discover upcoming events, register with ease, and stay informed. Whether you're attending or organizing, we've got you covered.
+          <p className="text-lg max-md:text-base text-gray-7000 dark:text-gray-300 mb-18 max-w-2xl mx-auto leading-relaxed">
+            Welcome to your all one event companion 🎉 <br />
+            From discovering the latest happenings to smooth registrations and real-time updates everything you need for attending or organizing events, All Events. One Platform. Zero Hassle.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="mt-30">
             <button
               onClick={() => navigate('/events')}
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-xl text-base transition shadow-md"
             >
               📅 View Events
             </button>
-            <button
+            {/* <button
               onClick={() => navigate('/admin/login')}
-              className="bg-gray-200 hover:bg-gray-300 text-indigo-700 dark:bg-gray-800 dark:text-yellow-300 dark:hover:bg-gray-700 font-semibold px-6 py-3 rounded-xl text-base transition shadow-md"
+              className="bg-gray-200 hover:bg-gray-300 text-indigo-700 dark:bg-gray-800 dark:text-red-300 dark:hover:bg-gray-700 font-ADLaM Display px-6 py-3 rounded-xl text-base transition shadow-md"
             >
               🔐 Admin Login
-            </button>
+            </button> */}
           </div>
         </section>
       </div>
@@ -157,7 +158,7 @@ function Home() {
         <blockquote className="italic text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto leading-relaxed">
           “This platform made it so easy to manage our college events. Registrations, updates, and communication — all in one place!”
         </blockquote>
-        <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 font-medium">— Event Organizer, SECT</p>
+        <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 font-medium">🥳🥳Event Organizer🥳🥳</p>
       </section>
 
       {/* What This Platform Does */}
@@ -182,10 +183,10 @@ function Home() {
 
       {/* FAQ Section */}
       <section className="bg-[#F3F4F6] dark:bg-gray-900 py-16 px-6">
-        <h1 className="text-4xl font-bold text-center mb-10 text-[#1F2937] dark:text-yellow-300">Frequently Asked Questions</h1>
+        <h1 className="text-4xl font-bold text-center mb-10 text-[#1F2937] dark:text-yellow-300">📌 Frequently Asked Questions (FAQs)📌</h1>
         <div className="space-y-8 max-w-4xl mx-auto">
-          {[{ q: "1. How do I register for an event?", a: "Just browse the upcoming events, click on the one you’re interested in, and fill out the registration form. You’ll receive a confirmation email right after." },
-          { q: "2. Is there a limit to how many seats I can book?", a: "Yes, each event has a fixed number of seats. Once all seats are booked, registration will be closed for that event." },
+          {[{ q: "1. How can I register for an event?", a: "Just browse the upcoming events, click on the one you’re interested in, and fill out the registration form. You’ll receive a confirmation email right after." },
+          { q: "2. How many tickets can I book for an event?", a: "Each event has a limited number of seats. You can book until the seats are full. Once it’s full, registration will automatically close.." },
           { q: "3. Will I get an email confirmation after registering?", a: "Absolutely! A confirmation email will be sent instantly to the email ID you provide during registration." },
           { q: "4. Can I cancel or change my registration?", a: "Currently, this version does not support editing or canceling registrations. Please double-check your details before submitting." },
           ].map((faq, idx) => (

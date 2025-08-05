@@ -14,13 +14,13 @@ function Footer() {
 
         {/* Internship Message */}
         <p className="text-center text-2xl max-md:text-lg font-semibold max-w-3xl mx-auto mb-6">
-          Built as part of the SECT Internship Program, empowering student developers to build real-world apps.
+          Built as part of the ARDENT Internship Program, empowering student developers to build real-world apps.
         </p>
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mb-6 text-2xl" aria-label="Social media links">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=100067170702050&mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit our Facebook page"
@@ -29,7 +29,7 @@ function Footer() {
             <FiFacebook />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/mr_pankaj_sharma_____?igsh=M2x3MGpjYmU3eXA0"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit our Instagram profile"
@@ -38,7 +38,7 @@ function Footer() {
             <FiInstagram />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/pankajkumar069"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit our LinkedIn profile"
@@ -50,7 +50,7 @@ function Footer() {
 
         {/* Contact Email */}
         <p className="text-center text-lg font-medium mb-4 dark:text-yellow-300">
-          📧 <a href="mailto:sectevent@gmail.com" className="underline hover:text-indigo-700 dark:hover:text-yellow-300">sectevent@gmail.com</a>
+          📧 <a href="kumarpankaj2812004@gmail.com" className="underline hover:text-indigo-700 dark:hover:text-yellow-300">kumarpankaj2812004@gmail.com</a>
         </p>
 
         {/* Footer Navigation */}
@@ -96,8 +96,8 @@ function Footer() {
         </nav>
 
         {/* Copyright */}
-        <div className="text-center text-lg font-semibold dark:text-gray-400">
-          &copy; {new Date().getFullYear()} SECT India. All rights reserved.
+        <div className="text-center text-lg font-semibold dark:text-gray-4500">
+           🙏🙏Thank you for exploring our platform🙏🙏.
         </div>
       </div>
     </footer>

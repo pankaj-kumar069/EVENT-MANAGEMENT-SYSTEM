@@ -48,7 +48,7 @@ const sendConfirmationEmail = async ({ name, email, eventTitle, eventDate, messa
         ${message ? `<p style="font-size:15px;">Additional note you shared with us: <em>${message}</em><br>Thanks for that!</p>` : ''}
         <p style="margin-top:20px;">
           🔎 If you have questions before the event, check our 
-          <a href="https://dynamic-public-event-registration-system.onrender.com/#faq" style="color:#007bff;">Frequently Asked Questions</a>.
+          <a href="https://dynamic-public-event-registration-system.onrender.com/#faq" style="color:#007bff;">📌 Frequently Asked Questions (FAQs)📌</a>.
         </p>
         <p style="font-size:15px;">Learn more or get updates via:</p>
         <ul style="font-size:15px;">
