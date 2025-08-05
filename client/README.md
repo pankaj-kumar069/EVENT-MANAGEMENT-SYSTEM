@@ -89,4 +89,4 @@ npm run test
 
 ---
 
-> 🎓 _Built as part of the **Internship Program** with [SECT](https://www.linkedin.com/company/sect-india/ ) and [Civora Nexus](https://www.linkedin.com/company/civoranexus/), empowering student developers to build real-world apps._
+> 🎓 _Built as part of the **Internship Program** with [ARDENT](https://www.ardentcollaborations.com/quick-enroll ) and [Ardent Intership](https://www.ardentcollaborations.com/quick-enroll), empowering student developers to build real-world apps._

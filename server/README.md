@@ -93,7 +93,7 @@ Explore connected resources to understand the full stack:
 
 ### 🔗 Profiles
 
-- 💼 GitHub: [@pankaj kumar](https://github.com/ram-bhagat-thakur)
+- 💼 GitHub: [@pankaj kumar](https://github.com/pankaj-kumar069)
 - 💼 LinkedIn: [pankaj kumar](http://www.linkedin.com/in/%20Pankajkumar069)
 
 ---

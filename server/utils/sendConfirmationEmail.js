@@ -52,10 +52,10 @@ const sendConfirmationEmail = async ({ name, email, eventTitle, eventDate, messa
         </p>
         <p style="font-size:15px;">Learn more or get updates via:</p>
         <ul style="font-size:15px;">
-          <li>🌐 Website: <a href="https://dynamic-public-event-registration-system.onrender.com/" style="color:#007bff;">Visit Platform</a></li>
-          <li>🔗 LinkedIn: <a href="https://www.linkedin.com/company/sect-india/" style="color:#007bff;">SECT India</a></li>
-          <li>📘 Facebook: <a href="http://www.facebook.com/" style="color:#007bff;">Like Us</a></li>
-          <li>📸 Instagram: <a href="https://instagram.com/" style="color:#007bff;">Follow Our Journey</a></li>
+          <li>🌐 Website: <a href="https://github.com/pankaj-kumar069" style="color:#007bff;">Visit Platform</a></li>
+          <li>🔗 LinkedIn: <a href="https://linkedin.com/in/pankajkumar069/" style="color:#007bff;">Ardent India</a></li>
+          <li>📘 Facebook: <a href="https://www.facebook.com/profile.php?id=100067170702050&mibextid=ZbWKwL" style="color:#007bff;">Like Us</a></li>
+          <li>📸 Instagram: <a href="https://www.instagram.com/mr_pankaj_sharma_____?igsh=M2x3MGpjYmU3eXA0" style="color:#007bff;">Follow Our Journey</a></li>
         </ul>
         <p style="margin-top:30px;">
           We'll send a reminder as the date approaches. If you have any questions or accessibility needs, don’t hesitate to reach out.

@@ -14,7 +14,7 @@ describe('Navbar Component', () => {
   });
 
   it('renders logo and navigation links', () => {
-    expect(screen.getByLabelText(/SECT Event Home/i)).toBeInTheDocument();
+    expect(screen.getByLabelText(/ARDENT Event Home/i)).toBeInTheDocument();
 
     ['Home', 'Events', 'Contact', 'Admin'].forEach((name) => {
       expect(screen.getAllByLabelText(`Go to ${name}`)[0]).toBeInTheDocument();

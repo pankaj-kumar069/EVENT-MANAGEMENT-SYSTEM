@@ -31,9 +31,9 @@ function Navbar() {
           <NavLink
             to="/"
             className="text-white dark:text-yellow-300 text-2xl font-bold tracking-tight"
-            aria-label="SECT Event Home"
+            aria-label="ARDENT Event Home"
           >
-            SECT Event
+            Ardent Intership Project
           </NavLink>
 
           {/* Desktop Navigation */}
